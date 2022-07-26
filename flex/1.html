@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8">
+		<title></title>
+
+		<style>
+			
+			
+			
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			div {
+			
+				/* border: 2px solid red; */
+			}
+
+			body {
+				background: #fcfcfc;
+			}
+			
+			@media screen and (max-width:1200px){
+				body{
+					background-color: #1f2d3d;
+				}
+				.m_p_body{
+					width: 90%;
+					flex-direction: column;
+				}
+				
+			}
+
+			@media screen and (max-width:900px) {
+				.m_p_body {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					min-width: 320px;
+					color: #1f2d3d;
+
+				}
+
+				.m_p_body .card {
+					width: 90%;
+					margin: 0;
+				}
+
+				.m_p_body .p {
+					width: 90%;
+				}
+
+				.m_p_list {
+					flex-direction: column;
+
+				}
+
+				.m_p_list h1 {
+					padding: 10px 0;
+					font-size: 22px;
+					color: #1f2d3d;
+				}
+
+				.m_p_list p {
+					font-size: 14px;
+
+				}
+
+				.m_p_list .list_left {
+					width: 100%;
+					height: 70%;
+				}
+
+				.m_p_list .list_left img {
+					width: 100%;
+				}
+
+
+			}
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+
+			.banner {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				background: skyblue;
+				height: 300px;
+				font-size: 30px;
+				font-weight: 300;
+				color: white;
+			}
+
+			h1 {
+				font-weight: 300;
+			}
+
+			.p_body {
+				max-width: 1300px;
+
+				display: flex;
+				margin: 0 auto;
+			}
+
+			.p {
+				display: flex;
+				flex: 3;
+				flex-direction: column;
+
+			}
+
+			.card {
+				flex: 1;
+			}
+
+			.p_list {
+				display: flex;
+				margin: 10px 0;
+				background: #fff;
+				color: #4c4948;
+
+			}
+
+			.p_list,
+			.card div {
+				box-shadow: 2px 2px 15px rgba(0, 0, 0, .2);
+				border-radius: 10px;
+				padding: -5px;
+				overflow: hidden;
+			}
+
+			.list_left {
+				overflow: hidden;
+				width: 450px;
+				height: 220px;
+
+			}
+
+			.list_left img {
+				width: 120%;
+				height: 100%;
+			}
+
+			.list_right {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: 2em;
+			}
+
+			.card {
+				display: flex;
+				flex-direction: column;
+				margin-left: 20px;
+			}
+
+			.card div {
+				height: 200px;
+				background: white;
+				margin: 10px 0;
+				padding: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="banner">
+			<h1>小残</h1>
+			<p>like water</p>
+		</div>
+		<div class="p_body m_p_body">
+
+			<div class="p">
+				<div class="p_list m_p_list">
+					<div class="list_left"><img src="http://www.lbnarray.top/img/4.jpg" alt="" width=""></div>
+					<div class="list_right">
+						<h1 style="margin-top: -30px;">这是一个测试标题</h1>
+						<p>根本原因在于也不是说它怎么怎么样，其实它也没有那么难办。但是也不能说一定要怎么怎么样...</p>
+					</div>
+				</div>
+
+				<div class="p_list m_p_list">
+					<div class="list_left"><img src="http://www.lbnarray.top/img/4.jpg" alt="" width=""></div>
+					<div class="list_right">
+						<h1 style="margin-top: -30px;">这是一个测试标题</h1>
+						<p>根本原因在于也不是说它怎么怎么样，其实它也没有那么难办。但是也不能说一定要怎么怎么样...</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<div class="card_1">卡片1</div>
+				<div class="card_2">卡片1</div>
+				<div class="card_3">卡片1</div>
+
+
+
+			</div>
+
+
+
+
+
+		</div>
+
+
+	</body>
+</html>
